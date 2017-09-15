@@ -1,4 +1,3 @@
-import Env from './env'
 
 /* 开发环境下配置的url */
 // api基本请求路径
@@ -19,8 +18,6 @@ if (process.env.NODE_ENV === 'production') {
 
 /* 导出参数 */
 export {
-  env: Env,
   apibaseUrl,
-  apiLocalUrl,
   baseUrl
 }
